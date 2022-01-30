@@ -1,0 +1,104 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(0, 109, 91);
+  color: white;
+}
+
+.header {
+  padding: 1em;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  padding: 1em;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
+
+.qa {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.qa img {
+  width: 25em;
+  object-fit: cover;
+}
+
+.qa div {
+  padding: 1em;
+  margin-left: 1em;
+  width: 40%;
+  background-color: rgb(0, 109, 91);
+
+}
+
+.qa div h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.qa div p {
+  color: white;
+  font-size: 1.3em;
+}
+
+.qa ul {
+  color: white;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.qa ul li {
+  color: white;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width:767px) {
+  .qa div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .qa img {
+    width: 100%;
+  }
+}
