@@ -92,10 +92,39 @@ footer {
 }
 
 @media (max-width:767px) {
+  .logo {
+    padding-bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .menu {
+    margin: 0;
+  }
+
+  .menu li {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li a {
+    display: block;
+    width: 100%;
+    padding: 0.75em;
+  }
+
+  .title {
+    padding-top: 0.5em;
+  }
+
   .qa div {
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-left: 1em;
+    padding-right: 0.5em;
   }
 
   .qa img {
