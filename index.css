@@ -18,6 +18,9 @@ header {
 }
 
 .logo a {
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  font-size: 1.25em;
   text-decoration: none;
   color: inherit;
 }
@@ -92,6 +95,11 @@ footer {
 }
 
 @media (min-width:768px) {
+  .header {
+    justify-content: space-around;
+    justify-items: center;
+  }
+
   .qa:nth-child(even) {
     flex-direction: row-reverse;  
   }
@@ -103,6 +111,10 @@ footer {
 }
 
 @media (max-width:767px) {
+  .header {
+    justify-content: center;
+  }
+
   .logo {
     padding-bottom: 0;
     width: 100%;
