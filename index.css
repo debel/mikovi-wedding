@@ -97,7 +97,7 @@ footer {
 @media (min-width:768px) {
   .header {
     justify-content: space-around;
-    justify-items: center;
+    align-items: center;
   }
 
   .qa:nth-child(even) {
